@@ -91,3 +91,17 @@
     display: block;
     /* height: auto; */
 }
+
+
+/* responsive media query */
+
+@media screen and (max-width: 576px) {
+    .navbar, .nav-links {
+        flex-direction: column;
+       
+    }
+    .banner-content {
+        width: 100%;
+    }
+    
+}
