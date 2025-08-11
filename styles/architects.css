@@ -181,18 +181,24 @@ main > section {
         width: 100%;
     }
 
-    .team-img-container {
+    .team-img-container, 
+    .facts-container {
     grid-template-columns: repeat(1, 1fr);
     gap: 20px;
-    width: 100%;
     }
 
     .team-img-container img {
         width: 100%;
         height: auto;
     }
-   
-    
+
+    .facts-container {
+        justify-items: center;
+    }
+
+    .facts-description {
+        margin-bottom: 50px;
+   }  
 }
 
 /* medium-sized devices  */
@@ -201,4 +207,23 @@ main > section {
         flex-direction: column;
         gap: 10px;
     }
+
+    .team-img-container img {
+        width: 100%;
+        height: auto;
+    }
+
+     .facts-description {
+        margin-bottom: 50px;
+   } 
+
+     .fact-card {
+        width: 100%;
+    }
+
+    .facts-container {
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 20px;
+    }
+ 
 }
