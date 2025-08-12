@@ -240,8 +240,18 @@ main > section {
     font-size: 4rem;
     font-weight: bold;
 }
-/* responsive media query */
 
+/* footer styles */
+footer {
+    width: 90%;
+    margin: 0 auto;
+    background-color: #FFF4E7;
+    text-align: center;
+    padding: 25px;
+}
+
+/* responsive media query */
+/* small-sized devices   */
 @media screen and (max-width: 576px) {
     .navbar, 
     .nav-links, 
