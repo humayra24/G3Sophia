@@ -22,3 +22,5 @@ The design emphasizes modern aesthetics, with sections for a hero banner, featur
 - **CSS3**: For styling, including flexbox, grid, media queries, and custom variables/classes.
 - **Google Fonts**: Work Sans font family for typography.
 
+https://humayra24.github.io/G3Sophia/
+
