@@ -197,6 +197,32 @@ main > section {
    filter: grayscale(100%);
 }
 
+/* Feature you will enjoy section related styles  */
+
+.features {
+    width: 85%;
+    margin: 0 auto;
+    gap: 140px;
+}
+
+#title-line {
+    border-left: 5px solid #FF900E;
+    padding: 15px;
+}
+
+.feature-card {
+    padding: 30px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.feature-title {
+    font-size: 1.23rem;
+    font-weight: 600;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
 
 /* responsive media query */
 
